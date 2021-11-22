@@ -399,7 +399,8 @@ img {
 .svg-social {
   fill: #afb1b8;
 }
-.svg-link:hover .svg-social {
+.svg-link:hover .svg-social,
+.svg-link:focus .svg-social {
   fill: #fff;
 }
 
@@ -440,7 +441,8 @@ img {
   display: inline-block;
 }
 
-.client:hover {
+.client:hover,
+.client:focus {
   border: 1px solid var(--accent-color);
 }
 
@@ -448,7 +450,8 @@ img {
   fill: #afb1b8;
 }
 
-.client:hover .svg-client {
+.client:hover .svg-client,
+.client:focus .svg-client {
   fill: var(--accent-color);
 }
 
@@ -526,15 +529,18 @@ img {
   background-color: rgba(255, 255, 255, 0.1);
 }
 
-.svg-link:hover {
+.svg-link:hover,
+.svg-link:focus {
   background-color: var(--accent-color);
 }
 
-.ftr-icons:hover {
+.ftr-icons:hover,
+.ftr-icons:focus {
   background-color: var(--accent-color);
 }
 
-.ftr-icons:hover .ftr-icon {
+.ftr-icons:hover .ftr-icon,
+.ftr-icons:focus .ftr-icon {
   fill: var(--header-color);
 }
 
