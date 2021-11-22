@@ -15,10 +15,11 @@ text-color = #757575
   --title-color: #212121;
   --text-color: #757575;
   --black: #000000;
+  --svg-grey: #afb1b8;
 }
 body {
   margin: 0px;
-  color: #757575;
+  color: var(--text-color);
   background-color: var(--header-color);
   font-style: normal;
   text-decoration: none;
@@ -77,7 +78,7 @@ img {
 .container.header {
   display: flex;
   align-items: center;
-  background-color: #ffffff;
+  background-color: var(--header-color);
 }
 
 .container.ftr {
@@ -87,7 +88,7 @@ img {
 
 /* header */
 .header {
-  background-color: #ffffff;
+  background-color: var(--header-color);
   border-bottom: 1px solid #ececec;
 }
 
@@ -301,6 +302,8 @@ img {
   margin-right: 0;
 }
 
+/* what are we do  */
+
 .item {
   display: flex;
   margin-left: auto;
@@ -309,10 +312,28 @@ img {
 }
 
 .items {
+  position: relative;
   margin-right: 30px;
 }
 .items:last-child {
   margin-right: 0px;
+}
+
+.transition-text {
+  position: absolute;
+  bottom: 0%;
+  padding: 27px 0px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--header-color);
+  background-color: rgba(47, 48, 58, 0.8);
 }
 
 .section-title {
@@ -335,6 +356,8 @@ img {
 .secondary-text.change-font {
   font-size: 16px;
 }
+
+/* SECTION TEAM */
 
 .section.team {
   background-color: #f5f4fa;
@@ -416,7 +439,7 @@ img {
   align-items: center;
   width: 170px;
   height: 92px;
-  border: 1px solid #afb1b8;
+  border: 1px solid var(--svg-grey);
   border-radius: 4px;
   margin-right: 30px;
 
@@ -530,7 +553,7 @@ img {
 
 .svg-social,
 .svg-client {
-  fill: #afb1b8;
+  fill: var(--svg-grey);
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
