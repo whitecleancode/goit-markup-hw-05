@@ -282,16 +282,15 @@ img {
   position: absolute;
   top: 8px;
   right: 8px;
-  min-width: 30px;
-  min-height: 30px;
+  width: 30px;
+  height: 30px;
+  margin: 0px;
+  /* background-color: var(--header-color); */
   border: 1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 50%;
-  padding-top: 0px;
-  padding-bottom: 0px;
 }
 .modal-btn {
-  overflow: visible;
-  padding: 6px 6px 6px 6px;
+  margin: 0px;
+  padding: 6px;
 }
 /* our FeAtures */
 .section {
