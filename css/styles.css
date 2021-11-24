@@ -267,8 +267,8 @@ img {
   pointer-events: none;
 }
 .modal {
-  width: 528px;
-  height: 581px;
+  min-width: 528px;
+  min-height: 581px;
   position: fixed;
   top: 50%;
   left: 50%;
@@ -284,13 +284,17 @@ img {
   right: 8px;
   width: 30px;
   height: 30px;
-  margin: 0px;
-  /* background-color: var(--header-color); */
+  background-color: transparent;
+  /*   
+  outline: 1px solid rgba(255, 255, 255, 0.1);
   border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 50%; */
 }
-.modal-btn {
-  margin: 0px;
-  padding: 6px;
+.modal-btn-piece {
+  position: absolute;
+  z-index: 3;
+  top: 14px;
+  right: 14px;
 }
 /* our FeAtures */
 .section {
