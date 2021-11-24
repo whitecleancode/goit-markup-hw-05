@@ -278,24 +278,21 @@ img {
   border-radius: 4px;
   background-color: var(--header-color);
 }
-.modal-body-btn {
+.body-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
   position: absolute;
   top: 8px;
   right: 8px;
-  width: 30px;
-  height: 30px;
-  background-color: transparent;
-  /*   
-  outline: 1px solid rgba(255, 255, 255, 0.1);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 50%; */
+  width: 32px;
+  height: 32px;
+  padding: 0px;
+  border: 1px solid rgba(255, 255, 55, 0.1);
+  border-radius: 50%;
 }
-.modal-btn-piece {
-  position: absolute;
-  z-index: 3;
-  top: 14px;
-  right: 14px;
-}
+
 /* our FeAtures */
 .section {
   padding-top: 94px;
