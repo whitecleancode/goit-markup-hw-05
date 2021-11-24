@@ -782,6 +782,6 @@ img {
   transform: translateY(+100%);
   transition: transform 250ms var(--time-function);
 }
-.hover-box:hover .hover-text {
+.works-link:hover .hover-text {
   transform: translateY(0);
 }
