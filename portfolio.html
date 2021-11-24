@@ -198,7 +198,7 @@
     </main>
 
     <!-- Подвал -->
-    <footer class="footer">
+  <footer class="footer">
       <div class="container ftr">
         <div class="ftr-box-left">
           <a href="./index.html" class="logo ftr" lang="en"
@@ -253,11 +253,17 @@
           <p class="ftr-txt">Подпишитесь на рассылку</p>
           <div class="ftr-form">
             <form>
-              <label class="ftr-label">
-                <input class="ftr-type" type="email" name="email" placeholder="E-mail" />
+              <label for="user-email" class="ftr-label">
+                <input
+                  class="ftr-type"
+                  type="email"
+                  name="email"
+                  placeholder="E-mail"
+                  id="user-email"
+                />
               </label>
             </form>
-            <button class="ftr-btn">
+            <button type="submit" class="ftr-btn">
               <svg class="send-icon" width="24" height="24" aria-label="send icon">
                 <use href="./images/icons.svg#iconsend"></use>
               </svg>
