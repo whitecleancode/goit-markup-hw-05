@@ -764,6 +764,8 @@ input[type='checkbox']:checked + .modal-checkbox {
 }
 .ftr-type::placeholder {
   padding-left: 16px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   letter-spacing: 0.03em;
 }
 .ftr-btn {
