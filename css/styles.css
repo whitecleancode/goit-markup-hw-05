@@ -281,7 +281,7 @@ img {
   border-radius: 4px;
   background-color: var(--header-color);
 }
-.body-btn {
+.modal-close {
   position: absolute;
   top: 8px;
   right: 8px;
