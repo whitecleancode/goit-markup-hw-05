@@ -149,7 +149,7 @@ img {
   color: var(--accent-color);
 }
 .current::after {
-  content: "";
+  content: '';
   position: absolute;
   bottom: 0;
   display: block;
@@ -220,11 +220,7 @@ img {
   max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
-  background-image: linear-gradient(
-      to right,
-      rgba(47, 48, 58, 0.4),
-      rgba(47, 48, 58, 0.4)
-    ),
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
     url(../images/bg.jpg);
 }
 .hero-title {
@@ -276,30 +272,26 @@ img {
   position: fixed;
   top: 50%;
   left: 50%;
+  transform: translate(-50%, -50%);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   background-color: var(--header-color);
-  transform: translate(-50%, -50%);
 }
 .modal-body-btn {
   position: absolute;
   top: 8px;
   right: 8px;
-  width: 30px;
-  height: 30px;
+  min-width: 30px;
+  min-height: 30px;
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 50%;
   padding-top: 0px;
   padding-bottom: 0px;
 }
 .modal-btn {
-  position: absolute;
-  top: 0%;
-  left: 0%;
-  bottom: 0%;
-  right: 0%;
-  padding: 6px;
+  overflow: visible;
+  padding: 6px 6px 6px 6px;
 }
 /* our FeAtures */
 .section {
